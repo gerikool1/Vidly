@@ -49,6 +49,9 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Management.Automation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.PowerShell.5.ReferenceAssemblies.1.1.0\lib\net4\System.Management.Automation.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -223,6 +226,22 @@
     <Compile Include="Migrations\202001271347367_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>202001271347367_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001280845280_AddNameMembershiptype.cs" />
+    <Compile Include="Migrations\202001280845280_AddNameMembershiptype.Designer.cs">
+      <DependentUpon>202001280845280_AddNameMembershiptype.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001280850438_UpdateMembershipTypeNames.cs" />
+    <Compile Include="Migrations\202001280850438_UpdateMembershipTypeNames.Designer.cs">
+      <DependentUpon>202001280850438_UpdateMembershipTypeNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001281022006_AddcustomerBirthday.cs" />
+    <Compile Include="Migrations\202001281022006_AddcustomerBirthday.Designer.cs">
+      <DependentUpon>202001281022006_AddcustomerBirthday.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001281023488_PopulateCustomerBirthday.cs" />
+    <Compile Include="Migrations\202001281023488_PopulateCustomerBirthday.Designer.cs">
+      <DependentUpon>202001281023488_PopulateCustomerBirthday.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -348,6 +367,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001271347367_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>202001271347367_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001280845280_AddNameMembershiptype.resx">
+      <DependentUpon>202001280845280_AddNameMembershiptype.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001280850438_UpdateMembershipTypeNames.resx">
+      <DependentUpon>202001280850438_UpdateMembershipTypeNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001281022006_AddcustomerBirthday.resx">
+      <DependentUpon>202001281022006_AddcustomerBirthday.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001281023488_PopulateCustomerBirthday.resx">
+      <DependentUpon>202001281023488_PopulateCustomerBirthday.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using System.Diagnostics.CodeAnalysis;
+using System.Management.Automation;
 
 namespace Vidly.Models
 {
@@ -19,6 +21,8 @@ namespace Vidly.Models
         public MembershipType MembershipType { get; set; }
 
         public byte MembershipTypeId { get; set; }
+
+        public DateTime? Birthday { get; set; }
 
     }
 }
