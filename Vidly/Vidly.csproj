@@ -242,6 +242,14 @@
     <Compile Include="Migrations\202001281023488_PopulateCustomerBirthday.Designer.cs">
       <DependentUpon>202001281023488_PopulateCustomerBirthday.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001291105576_AddMovieNewParameters.cs" />
+    <Compile Include="Migrations\202001291105576_AddMovieNewParameters.Designer.cs">
+      <DependentUpon>202001291105576_AddMovieNewParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001291223529_PopulateMovies.cs" />
+    <Compile Include="Migrations\202001291223529_PopulateMovies.Designer.cs">
+      <DependentUpon>202001291223529_PopulateMovies.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -314,6 +322,8 @@
     <Content Include="Views\Movies\Random.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
+    <Content Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -379,6 +389,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001281023488_PopulateCustomerBirthday.resx">
       <DependentUpon>202001281023488_PopulateCustomerBirthday.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001291105576_AddMovieNewParameters.resx">
+      <DependentUpon>202001291105576_AddMovieNewParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001291223529_PopulateMovies.resx">
+      <DependentUpon>202001291223529_PopulateMovies.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
